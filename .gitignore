@@ -13,8 +13,7 @@ node_modules
 **/.yarn/cache
 **/.yarn/*state*
 
-# Generated dirs
-dist
+# Generated dirs (dist is committed for GitHub installs)
 
 # Nuxt
 .nuxt
