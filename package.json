@@ -2,23 +2,20 @@
   "name": "nuxt-multi-tenancy",
   "version": "2.0.0",
   "description": "Multi-domain tenancy for Nuxt — per-domain layouts, translation overrides, and metadata with SSR/SPA/prerender support",
-  "repository": "hieuhani/nuxt-multi-tenancy",
+  "repository": "nkia-christoph/nuxt-multi-tenancy",
   "license": "MIT",
   "type": "module",
   "exports": {
     ".": {
-      "types": "./dist/types.d.ts",
-      "import": "./dist/module.mjs",
-      "require": "./dist/module.cjs"
+      "types": "./dist/types.d.mts",
+      "import": "./dist/module.mjs"
     }
   },
-  "main": "./dist/module.cjs",
-  "types": "./dist/types.d.ts",
+  "main": "./dist/module.mjs",
   "files": [
     "dist"
   ],
   "scripts": {
-    "prepare": "nuxt-module-build build",
     "prepack": "nuxt-module-build build",
     "dev": "nuxi dev playground",
     "dev:build": "nuxi build playground",
